@@ -1,0 +1,15 @@
+.p-datatable .p-datatable-thead > tr > th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    text-align: center;
+}
+
+.p-inputtext {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
