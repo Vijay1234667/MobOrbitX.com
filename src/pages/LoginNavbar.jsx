@@ -16,7 +16,7 @@ const LoginNavbar = () => {
         <main className='ms-0 mt-0'>
             <Navbar expand="lg" className="px-md-1 py-3 py-md-2 signin-Top-navbar top-0 position-absolute w-100">
             <Container fluid>
-                <Navbar.Brand href="/"><img className='img-fluid' src={logo} alt={logo} width={200} /></Navbar.Brand>
+                <Navbar.Brand to="/"><img className='img-fluid' src={logo} alt={logo} width={200} /></Navbar.Brand>
                 <Navbar.Toggle className='shadow-none border-0' aria-controls="navbarScroll">
                     <MenuIcon className='text-white fs-1' />
                 </Navbar.Toggle>
